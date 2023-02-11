@@ -1,0 +1,21 @@
+@startuml
+
+class Pasajero{
+  cedula: string
+  nombres : string
+}
+
+class Viaje {
+  fechaIda: date
+  fechaVuelta: date
+}
+
+
+class CasoUsoSimuladorAvion{
+  respositorioAvion: RespositorioAvion
+  + crear(cuenta)
+  + editar(asiento,destino)
+  + eliminar(pasajero)
+}
+
+@enduml

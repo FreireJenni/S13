@@ -1,0 +1,20 @@
+.btn{
+    background: rgb(167, 101, 229);
+}
+.final{
+    text-align:right;
+    font-weight: bold;
+    margin-right: 5%;
+    font-size: small;
+}
+.text-end{
+    margin-right: 90%;
+    color: black;
+}
+.text-end1{
+    margin-left: 2.5%;
+
+}
+.text-end2{
+    margin-left: 2.5%;
+}
